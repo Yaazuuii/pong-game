@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+}
+
+#board{
+    border: 10px solid whitesmoke;
+}
+
+.score{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: white; 
+}
+.reset{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: cursive;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.reset:hover{
+    color: #bc13fe;
+    transition: 0.3s;
+}
